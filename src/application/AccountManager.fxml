@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.collections.FXCollections ?>
+<AnchorPane prefHeight="177.0" prefWidth="339.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AccountManagerController">
+   <children>
+      
+      <ComboBox fx:id="cmbOptions" layoutX="25.0" layoutY="40.0" onAction="#cmbOptions" prefWidth="150.0" >
+      <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="Add Customer" />
+                <String fx:value="Delete Customer" />
+                <String fx:value="Add Account" />
+                <String fx:value="Close Account" />
+            </FXCollections>
+        </items>
+      </ComboBox>
+   </children>
+</AnchorPane>

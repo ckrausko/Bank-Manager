@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="136.0" prefWidth="317.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.MainController">
+   <children>
+      <Button fx:id="btnManagement" layoutX="21.0" layoutY="42.0" mnemonicParsing="false" onAction="#btnManagement" text="Customer Management" />
+      <Button layoutX="201.0" layoutY="42.0" mnemonicParsing="false" text="Transactions" />
+      <Button layoutX="135.0" layoutY="93.0" mnemonicParsing="false" text="Reports" />
+   </children>
+</AnchorPane>
